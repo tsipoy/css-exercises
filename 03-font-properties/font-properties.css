@@ -6,3 +6,184 @@
   /* Property example with a value */
 
 }
+
+/*font*/
+/* font-family
+  Font family property specifies a list fonts family names for the selected elements.
+*/
+/* Example*/
+
+.font-family {
+  font-family: cursive;
+}
+
+/* font-size
+  Font size property sets the size of the font.
+*/
+/* Example */
+
+.font-size {
+  font-size: x-large;
+}
+
+/* font-weight
+  Font weight property sets the weight of the font.
+*/
+/* Example*/
+
+.font-weight {
+  font-weight: 900;
+}
+
+/* font-style
+  Font style property sets the style of the font. It can be normal style.
+*/
+/*Example*/
+
+.font-style {
+  font-style: italic;
+}
+
+/* line-height
+  Line height property sets the height of a line box. It's commonly used to set the distance between lines of text.
+*/
+/* Example*/
+
+.line-height {
+  line-height: 30%;
+}
+
+/*  font-variant
+  Font variant property sets a different form of a text. Though, we can have a normal font.
+*/
+/* Example*/
+
+.font-variant {
+  font-variant: small-caps;
+}
+
+/*  font-stretch
+  Font stretch property sets a normal text; it has no effect to our text.
+*/
+/* Example*/
+
+.font-stretch {
+  font-stretch: condensed;
+}
+
+/*  font-size-adjust
+  Font size adjust property sets how the font size should be chosen based on the height of lowercase rather than capital letters.
+*/
+/* Example*/
+
+.font-size-adjust {
+  font-size-adjust: initial;
+}
+
+/*  font-synthesis
+  Font synthesis property controls which missing typefaces, bold or italic, may be synthesized by the browser.
+*/
+/* Example*/
+
+.font-synthesis {
+  font-synthesis: style;
+}
+
+/*  letter-spacing
+  Letter spacing property sets a space between words.
+*/
+/* Example*/
+
+.letter-spacing {
+  letter-spacing: 5px;
+}
+
+/*  text-align
+  Text align property sets the alignment of a block of text and other inline boxes.
+*/
+/* Example*/
+
+.text-align {
+  text-align: center;
+}
+
+/*  text-decoration
+  Text decoration property sets the decoration; the underlined, overlined, and struck-through text.
+*/
+/* Example*/
+
+.text-decoration {
+  text-decoration: yellowgreen;
+}
+
+/*  text-decoration-line
+  Text decoration line property sets a decoration as a line in the text. It can place above, under and through the words.
+*/
+/* Example*/
+
+.text-decoration-line {
+  text-decoration-line: underline;
+}
+
+/*  text-decoration-style
+  Text decoration style property sets the style decoration in the text.
+*/
+/* Example*/
+
+.text-decoration-style {
+  text-decoration-style: double;
+}
+
+/*  text-decoration-color
+  Text decoration color property sets the colour of the text decoration.
+*/
+/* Example*/
+
+.text-decoration-color {
+  text-decoration-color: violet;
+}
+
+/*  text-indent
+  Text indent property sets the indentation at the start of the first line in a block of text.
+*/
+/* Example*/
+
+.text-indent {
+  text-indent: 5px;
+}
+
+/*  text-transform
+  Text transform property converts the case of letters — to uppercase, lowercase, or capitalized.
+*/
+/* Example*/
+
+.text-transform {
+  text-transform: lowercase;
+}
+
+/*  vertical-align
+  Vertical align property sets the vertical alignement of the text.
+*/
+/* Example*/
+
+.vertical-align {
+  vertical-align: sub;
+}
+
+/*  white-space
+  White space property sets how white space (such as new lines or a sequence of spaces) should be handled.
+*/
+/* Example*/
+
+.white-space {
+  white-space: pre-line;
+}
+
+
+
+
+
+
+
+
+
