@@ -1,15 +1,15 @@
-* {
+
 /*
   Property name
   Property description
 */
   /* Property example with a value */
 
-}
+
 
 /*font*/
 /* font-family
-  Font family property specifies a list fonts family names for the selected elements.
+  Font family property specifies a list of fonts family names for the selected elements.
 */
 /* Example*/
 
@@ -32,7 +32,7 @@
 /* Example*/
 
 .font-weight {
-  font-weight: 900;
+  font-weight: 700;
 }
 
 /* font-style
@@ -54,7 +54,7 @@
 }
 
 /*  font-variant
-  Font variant property sets a different form of a text. Though, we can have a normal font.
+  Font variant property sets a different form of a text. Though, we can have a normal font.Optional features.
 */
 /* Example*/
 
@@ -64,11 +64,12 @@
 
 /*  font-stretch
   Font stretch property sets a normal text; it has no effect to our text.
+
 */
 /* Example*/
 
 .font-stretch {
-  font-stretch: condensed;
+  font-stretch: 50%;
 }
 
 /*  font-size-adjust
@@ -90,13 +91,23 @@
 }
 
 /*  letter-spacing
-  Letter spacing property sets a space between words.
+  Letter spacing property sets a space between the letters.
 */
 /* Example*/
 
 .letter-spacing {
-  letter-spacing: 5px;
+  letter-spacing: 0em;
 }
+
+/*  word-spacing
+  Word spacing property sets a space between the words.
+*/
+/* Example*/
+
+.word-spacing {
+  word-spacing: 5px;
+}
+
 
 /*  text-align
   Text align property sets the alignment of a block of text and other inline boxes.
@@ -113,7 +124,7 @@
 /* Example*/
 
 .text-decoration {
-  text-decoration: yellowgreen;
+  text-decoration: underlin;
 }
 
 /*  text-decoration-line
@@ -171,12 +182,12 @@
 }
 
 /*  white-space
-  White space property sets how white space (such as new lines or a sequence of spaces) should be handled.
+  White space property sets how white space (such as new lines or a sequence of spaces) should be handled or behaved.
 */
 /* Example*/
 
 .white-space {
-  white-space: pre-line;
+  white-space: pre-wrap;
 }
 
 
