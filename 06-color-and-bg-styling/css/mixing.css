@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+.dory {
+  background-color: lightseagreen;
+  background-image: linear-gradient(bottom, blue, white, red);
+  background-image: url('../images/coral-reef.png'),
+                    url('../images/bubble.png');
+  background-position: center;
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+.bird {
+background-color: cornsilk;
+background-image: linear-gradient(rgb);
+background-image: url('../images/grass-clump.png'),
+                  url('../images/grass-left.png'),
+                  url('../images/grass-tile.png'),
+                  url('../images/big-bird.png'),
+                  url('../images/sun.png');
+background-position: right;
+background-position: left;
+background-position: top;
+background-position: top left;
+background-position: bottom left;
+background-repeat: no-repeat;
+background-size: contain;
+}
