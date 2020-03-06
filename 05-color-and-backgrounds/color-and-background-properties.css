@@ -6,3 +6,82 @@
     /* Property example with a value */
 
   }
+
+
+  /*color
+    Color sets the foreground color value of an element's text and text decorations, and sets the 'currentcolor'(get the current element colour) value.
+  */
+  .color {
+    color: lightgreen;
+  }
+
+
+  /*background-color
+    Background color sets the background color of an element.
+  */
+  .background-color {
+    background-color: lightcoral;
+  }
+
+  /*background-image
+    Background-image sets a background image of an element.
+  */
+  .background-image {
+    background-image: linear-gradient()
+  }
+
+
+  /*background-repeat
+    Background reapeat sets how background images are repeated. A background image can be repeated along the horizontal and vertical axes, or not repeated at all.
+  */
+  .background-repeat {
+    background-repeat: space;
+  }
+
+
+  /*background-position
+    Background position sets the initial position for each background image. The position is relative to the position layer set by background-origin.
+  */
+  .background-position {
+    background-position: right;
+  }
+
+
+  /*background-attachment
+    Background attachment sets whether a background image's position is fixed within the viewport, or scrolls with its containing block.
+  */
+  .background-attachment {
+    background-attachment: scroll;
+  }
+
+
+  /*background-clip
+    Background clip sets whether an element's background extends underneath its border box, padding box, or content box.
+  */
+  .background-clip {
+    background-clip: border-box;
+  }
+
+
+  /*background-origin
+    Background origin sets the background's origin: from the border start, inside the border, or inside the padding.
+  */
+  .background-origin {
+    background-origin: padding-box;
+  }
+
+
+  /*background-size
+    Background size sets the size of the element's background image. The image can be left to its natural size, stretched, or constrained to fit the available space.
+  */
+  .background-size {
+    background-size: contain;
+  }
+
+
+  /*box-shadow
+    Box shadow adds shadow effects around an element's frame. You can set multiple effects separated by commas.
+  */
+  .box-shadow {
+    box-shadow: purple;
+  }
