@@ -45,15 +45,3 @@ section h2 {
 section p {
   margin: 0;
 }
-
-.dory {
-  background: linear-gradient( to bottom, skyblue, white);
-}
-
-.bird {
-  background: linear-gradient(to left, white, yellow);
-}
-
-.seal {
-  background: linear-gradient(to left, white, aquamarine);
-}
