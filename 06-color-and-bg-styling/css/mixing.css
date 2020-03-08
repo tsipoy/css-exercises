@@ -2,11 +2,12 @@
 
 .dory {
   background-color: lightseagreen;
-  background-image: url('../images/coral-reef.png'),
+  background-image: url('../images/lu-seal.png'),
+                    url('../images/coral-reef.png'),
                     url('../images/bubble.png');
-  background-position: center;
+  background-position: left, center, top;
   background-repeat: repeat-x;
-  background-size: contain;
+  background-size: 100, 900, 30%;
 }
 
 .bird {
@@ -14,10 +15,11 @@ background-color: cornsilk;
 background-image: url('../images/grass-tile.png'),
                   url('../images/grass-left.png'),
                   url('../images/grass-clump.png'),
+                  url('../images/beach-ball.png'),
                   url('../images/sun.png');
-background-position: right, bottom, bottom right, top left;
+background-position: right, bottom, bottom right, right, top left;
 background-repeat: no-repeat;
-background-size: 0, 50cm, 150px, 400;
+background-size: 0, cover, 150px, 700px, 400;
 }
 
 .seal {
