@@ -1,0 +1,111 @@
+/*
+#sky
+  <div id="cloud-1" class="cloud"></div>
+  <div id="cloud-2" class="cloud"></div>
+  </div>
+  <div id="countryside">
+      <div id="town">
+        <div id="house-1" class="house"></div>
+        <div id="house-2" class="house"></div>
+        <div id="tree" class="plant"></div>
+        <div id="palm" class="plant"></div>
+      </div>
+    </div>
+*/
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+}
+
+
+.cloud {
+  background-image: url('../images/cloud.svg');
+  width: 50px;
+  height: 40px;
+  background-repeat: no-repeat;
+}
+
+.house {
+
+}
+
+.plant {
+
+}
+
+#sky {
+  background-color: skyblue;
+  flex-basis: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#cloud-1 {
+
+}
+
+#cloud-2 {
+
+}
+
+#countryside {
+  background-color: green;
+  flex-basis: 60%;
+}
+
+#town {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+#town > * {
+  margin-inline-start: 1rem;
+  margin-block-end: 1rem;
+}
+
+#town::after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  right: 0;
+  bottom: 14px;
+  left: 0;
+}
+
+#house-1 {
+  background-image: url('../images/house-1.svg');
+  width: 80px;
+  height: 80px;
+}
+
+#house-2 {
+  background-image: url('../images/house-2.svg');
+  width: 56px;
+  height: 56px;
+}
+
+#tree {
+  background-image: url('../images/tree.svg');
+  width: 50px;
+  height: 50px;
+}
+
+#palm {
+  background-image: url('../images/palm-tree.svg');
+  width: 50px;
+  height: 50px;
+}
