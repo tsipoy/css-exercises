@@ -8,7 +8,6 @@
 
 .plant {
   background-image: url('../images/palm-tree.svg');
-  animation: sway 3s ease-in-out infinite;
   transform-origin: 50% 100%;
   transform: skewX(3deg);
 }
@@ -63,7 +62,6 @@
   background-image: url('../images/palm-tree.svg');
   bottom: 14px;
   right: 10px;
-  animation-delay: 1s;
   width: 60px;
   height: 60px;
 }
@@ -83,5 +81,4 @@
   left: -25%;
   width: 70px;
   height: 70px;
-  animation: ltr 3s ease-in-out infinite;
 }
