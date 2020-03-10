@@ -1,26 +1,30 @@
 @charset "utf-8";
 
 .dory {
-  background-color: aquamarine;
+  background-color: skyblue;
   background-image:
-    url('../images/lu-seal.png'), /*lu seal */
-    url('../images/coral-reef.png'), /* coral reef*/
+    url('../images/crab.png'), /*crab */
+    url('../images/coral-reef.png'), /* coral reef */
     url('../images/bubble.png'), /* bubble */
-    linear-gradient(0deg, rgb(248, 192, 87) 30%, skyblue 90%); /* gradient */
+    url('../images/sun.png'), /* sun */
+    linear-gradient(0deg, white 40%,rgb(103, 221, 103) 50%); /* gradient */
   background-position:
-    left, /*lu seal */
+    bottom, /*crab */
     center, /* coral reef*/
-    top; /* bubble */
+    left, /* bubble */
+    top left; /* sun */
   background-repeat:
-   repeat-x,
-   repeat-x,
-   repeat-x,
-   repeat-x;
+   no-repeat, /* crab */
+   repeat-x, /* coral reef */
+   no-repeat, /* buble */
+   no-repeat, /* sun */
+   repeat-x;/* gradient */
   background-size:
-    100, /* lu seal */
-    900px,  /* coral reef*/
-    20px, /* bubble */
-    30% 90%; /* gradient */
+    200px, /* crab */
+    894px,  /* coral reef*/
+    100px, /* bubble */
+    60px, /* sun */
+    50% 80%; /* gradient */
 }
 
 .bird {
@@ -52,13 +56,30 @@
 
 .seal {
   background-color: rgba(158, 219, 245, 0.096);
-  background-image: url('../images/crab.png'),
-                    url('../images/palm-2.png'),
-                    url('../images/beach-ball.png'),
-                    url('../images/palm.png'),
-                    url('../images/sun.png'),
-  linear-gradient(to top, aquamarine,aqua,white);
-  background-position: bottom, top right, left, top right, top left;
-  background-repeat: no-repeat;
-  background-size: 100px, 700px, 300px, 500px, 250px, contain;
+  background-image: url('../images/crab.png'), /* crab */
+                    url('../images/palm-2.png'), /* palm 2 */
+                    url('../images/beach-ball.png'), /* beach ball */
+                    url('../images/palm.png'), /* palm */
+                    url('../images/sun.png'), /* sun */
+  linear-gradient(0deg, white 30%, skyblue 70%);
+  background-position:
+    bottom, /* crab */
+    bottom right, /* palm 2 */
+     bottom left, /* beach ball */
+    bottom left, /* palm */
+    top left; /* sun */
+  background-repeat:
+    no-repeat, /* crab */
+    no-repeat, /* palm 2 */
+    no-repeat, /* beach ball */
+    no-repeat, /* palm */
+    no-repeat, /* sun */
+    no-repeat; /* gradient */
+  background-size:
+    90px, /* crab */
+    400px, /* palm 2 */
+    200px, /* beach ball */
+    400px, /* palm */
+    100px, /* sun */
+    100% 70% ;/* gradient */
   }
