@@ -42,14 +42,16 @@
 
 
 /* Differance between background-color and opacity:
-  Background-color is the font that always stays behind the text or an image whereas opacity cover the the the text.
+  Background-color is referring to the text color in elements whereas opacity specifies how transparent an element is.
 */
 
 /* Differance between display: none; and visibility: hidden;
 
-  The element box is invisible (not drawn), but still affects layout as normal. Descendants of the element will be visible if they have visibility set to visible. The element cannot receive focus (such as when navigating through tab indexes).
+  -The element box is invisible (not drawn), but still affects layout as normal. Descendants of the element will be visible if they have visibility set to visible. The element cannot receive focus (such as when navigating through tab indexes).
 
-  Using a display value of none on an element will remove it from the accessibility tree. This will cause the element and all its descendant elements to no longer be announced by screen reading technology.
+  -Using a display value of none on an element will remove it from the accessibility tree. This will cause the element and all its descendant elements to no longer be announced by screen reading technology.
 */
+
+/* We ues visibility: visible; because when we use collapse, collapsed flex items are hidden, and the space they would have occupied is removed but, descendants of the element will be visible if they have visibility set to visible.
 
 
