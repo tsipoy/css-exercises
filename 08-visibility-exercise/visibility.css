@@ -12,6 +12,15 @@ li:nth-of-type(3) {
   visibility: hidden;
 }
 
+/* nav li:not(:first-child) {
+  visibility: hidden;
+}
+
+li > [href="#/"] {
+  visibility: visible;
+}
+*/
+
 
 
 td[data-bg-color=blue] {
@@ -24,6 +33,9 @@ tr:nth-of-type(2n) {
 span {
   display: none;
 }
+
+
+
 
 span {
   opacity: 0.5;

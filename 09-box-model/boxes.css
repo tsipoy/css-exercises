@@ -5,3 +5,66 @@
   */
     /* Property example with a value */
   }
+  /* Box model */
+
+ /* Box model describes as rectangular boxes. In css we use box model to define how these rectangular boxes take affect our browser. Also, we apply it with a different property so we moderate how size it is so, box model has different shape that depend on what you want. As it is boxes, we must have a border, padding, margin within width and height, indeed the content. To make it has an appropriate shape, we have to arrange each properties measure with calculation. We are not able to see the boxes unless we add a background-color.
+ */
+
+
+  /* _________________________________________
+    |   __________________________________    |
+    |  |    ____________________________   |  |
+    |  |   |                            |  |  |
+    |  |   |                            |  |  |
+    |  |   |        Content             |  |  |
+    |  |   |                            |  |  |
+    |  |   |                            |  |  |
+    |  |   |                            |  |  |
+    |  |   |____________________________|  |  |
+    |  |___________________________________|  |
+    |_________________________________________|
+
+    -  the outer of the first box reffers to the "margin".
+    - the first box reffers to the "borber".
+    - the 2nd boxe reffers to the "padding".
+    - the last box is the content.
+  */
+
+
+  /* Content-box */
+
+  /* Content box is the area which you can put your text or textry. You can add the width and the height in this area.
+  */
+
+  .example {
+    width: 320px;
+    height: 320px;
+  }
+
+
+  /* padding-box */
+
+  /* Padding box is the area which you can control the property for example you want the text to close the border. We can apply it in the top,bottom, left and right.
+  */
+
+  .example {
+    width: 320px;
+    height: 320px;
+    padding: 10px 20px 30px;
+  }
+
+  /* border-box */
+
+  /* Border box is the area which wraps the content and the padding boxes. You can style or decor the border with a size.
+  */
+
+  .example {
+    width: 320px;
+    height: 320px;
+    padding: 10px 20px 30px;
+    border: thick bouble red;
+  }
+
+  /* border */
+
+  /*
