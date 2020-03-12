@@ -31,12 +31,12 @@
   */
 
 
-  /* Content-box */
+  /* content-box */
 
-  /* Content box is the area which you can put your text or textry. You can add the width and the height in this area.
+  /* Content box is the area which you can put your text or textry. You also can add the width and the height in this area.
   */
 
-  .example {
+  p#content {
     width: 320px;
     height: 320px;
   }
@@ -47,10 +47,10 @@
   /* Padding box is the area which you can control the property for example you want the text to close the border. We can apply it in the top,bottom, left and right.
   */
 
-  .example {
+  p#padding {
     width: 320px;
     height: 320px;
-    padding: 10px 20px 30px;
+    padding: 1rem;
   }
 
   /* border-box */
@@ -58,13 +58,100 @@
   /* Border box is the area which wraps the content and the padding boxes. You can style or decor the border with a size.
   */
 
-  .example {
-    width: 320px;
-    height: 320px;
-    padding: 10px 20px 30px;
-    border: thick bouble red;
+  p#border-box {
+    border: dashed red;
   }
 
   /* border */
 
-  /*
+  /* Border property sets the border area for an element. */
+
+  /* 1- border-width sets a width of an element borber. */
+  .example {
+    width: 320px;
+    height: 320px;
+    padding: 10px 20px 30px;
+    border: thick;
+  }
+
+  /* 2- border-style sets a style of an element border. */
+  .example {
+    width: 320px;
+    height: 320px;
+    padding: 10px 20px 30px;
+    border-style:dashed solid ;
+  }
+
+  /* 3- border-color sets the colour of an element border. */
+  .example {
+    width: 320px;
+    height: 320px;
+    padding: 10px 20px 30px;
+    border-color: red;
+  }
+
+  /* 4- border-image sets an image of an element border. You can put url or linear-gradient. */
+  .example {
+    width: 320px;
+    height: 320px;
+    padding: 10px 20px 30px;
+    border: linear-gradient(white, skyblue)
+  }
+
+
+  /* margin */
+
+  /* Margin property sets the four sides of an element: margin-top, margin left, margin-right and margin-bottom. We can apply them in one element in a different way.
+  */
+  .example {
+    width: 320px;
+    height: 320px;
+    padding: 10px 20px 30px;
+    border: thick;
+    margin: 1rem;
+  }
+
+  /* padding */
+
+  /* Padding property sets the padding area of an element. It also sets the four sides of an element: padding-top, padding-bottom, padding-right and padding-left.
+  */
+  .example {
+    width: 320px;
+    height: 320px;
+    padding: 10px 20px 30px;
+    border: thick;
+    padding-left: 0.5px;
+  }
+
+  /* display */
+
+  /* Display property sets whether an element is treated as a block or inline element and the layout used for its children, such as flow layout, grid or flex. Formally, the display property sets an element's inner and outer display types, according to mdn.
+  */
+  .example {
+    display: none;
+  }
+
+  /* box-sizing */
+
+  /* Box sizing property sets the size of the element box. If you want to use box-sizing you have to use width at least, it means that box-sizing is the total of width.
+  */
+  .example {
+    box-sizing: content-box;
+    width: 20%;
+  }
+
+  body {
+    background-color: rgb(219, 232, 240);
+  }
+
+  h1 {
+    text-shadow: 2px 2px 2px darkturquoise;
+  }
+
+
+  h3 {
+  text-transform: capitalize;
+  text-shadow: 2px 2px 2px darkmagenta;
+  }
+
+
