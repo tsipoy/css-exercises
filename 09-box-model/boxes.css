@@ -7,7 +7,7 @@
   }
   /* Box model */
 
- /* Box model describes as rectangular boxes. In css we use box model to define how these rectangular boxes take affect our browser. Also, we apply it with a different property so we moderate how size it is so, box model has different shape that depend on what you want. As it is boxes, we must have a border, padding, margin within width and height, indeed the content. To make it has an appropriate shape, we have to arrange each properties measure with calculation. We are not able to see the boxes unless we add a background-color.
+ /* Box model describes as rectangular boxes. In css we use box model to define how these rectangular boxes take affect our browser. Also, we apply it with a different property so we moderate how size it is so, box model has different shape that depend on what you want. As it is boxes, we must have a border, padding, margin within width, indeed the content. To make it has an appropriate shape, we have to arrange each properties measure with calculation. We are not able to see the boxes unless we add a background-color. Each word considers as a box in css.
  */
 
 
