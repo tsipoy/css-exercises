@@ -48,3 +48,33 @@ white-space
 widows
 word-spacing
 */
+
+/* Difference between the `currentColor` and `inherit` */
+/* When we use inherit, child elements inherit parent elements unless we add different value for the child elements. But for currentColor value, we use it when we want certain color in an     element, it is not based on parent element's color.
+*/
+
+/* What do the `revert`, `initial`, and `unset` keyword values do? */
+/* revert:
+   revert keyword value resets a property to take its parent color.
+*/
+
+/* initial:
+initial keyword value sets a property to its initial value.
+*/
+
+/* unset:
+unset keyword value resets the a property to its inherits if it isn't.
+*/
+
+
+/* Possibilities with using an ancestor or universal selector, combined with the `inherit` value.*/
+
+/* Descendents selector are always matched if they have ancestor
+   Match with any element:
+  ns|* - matches all elements in namespace ns
+  *|* - matches all elements
+  |* - matches all elements without any declared namespace
+  */
+
+
+
