@@ -1,4 +1,8 @@
 
 .heartbeats {
-  border-block-start: grey solid thin;
+  border-top: grey solid thin;
+}
+
+main {
+  border-bottom:   rgba(0, 0, 0,0.4) solid thin;
 }
