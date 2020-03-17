@@ -27,6 +27,7 @@ list-style-image
 list-style-position
 list-style-type
 list-style
+margins
 orphans
 pitch-range
 pitch
@@ -46,31 +47,35 @@ voice-family
 volume
 white-space
 widows
+width
 word-spacing
 */
 
-/* Difference between the `currentColor` and `inherit` */
-/* When we use inherit, child elements inherit parent elements unless we add different value for the child elements. But for currentColor value, we use it when we want certain color in an     element, it is not based on parent element's color.
+/* Difference between the `currentColor (currentelement)` and `inherit` */
+/* When we use inherit, child elements inherit parent elements unless we add different value for the child elements. But for currentColor value, we use it when we want certain color in an     element, it is not based on parent element's color. Currentcolor takes the parent property value.
 */
 
 /* What do the `revert`, `initial`, and `unset` keyword values do? */
 /* revert:
-   revert keyword value resets a property to take its parent color.
+   revert keyword value resets a property to take its original inherited value (e.g: color). Reset sets the property to (0) or remove/delete.
 */
 
 /* initial:
-initial keyword value sets a property to its initial value.
+  initial keyword value sets a property to its initial value. It applays to the defualt value. We can say normalize too.
 */
 
 /* unset:
-unset keyword value resets the a property to its inherits if it isn't.
+  unset keyword value resets a property to its inherits if it isn't.
 */
+
+/* Dangerous of using inherit as a value if the certain properties are inheritable */
+/* It might remove
 
 
 /* Possibilities with using an ancestor or universal selector, combined with the `inherit` value.*/
 
 /* Descendents selector are always matched if they have ancestor
-   Match with any element:
+  Match with any element:
   ns|* - matches all elements in namespace ns
   *|* - matches all elements
   |* - matches all elements without any declared namespace

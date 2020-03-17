@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: 800px;
   width: 800px;
-  height: 320px;
+  height: 330px;
   color: white;
 }
 
@@ -53,6 +53,20 @@ h2 {
   margin-inline-start: 1px;
   margin-inline-end: 1px;
 }
+
+.lost header {
+  margin-block-end: 1rem;
+  margin-block-start: -1rem;
+  font-weight: 100;
+  font-size: 30px;
+}
+
+.lost p {
+  margin-block-end: 1rem;
+  margin-block-start: -2rem;
+  font-size: 17px;
+}
+
 
 
 

@@ -1,1 +1,12 @@
+.older p {
+  background-color: white;
+  text-align: right;
 
+ }
+
+  .older a {
+    display: block;
+    color: rgb(103, 183, 230);
+    text-decoration: none;
+    padding: 0rem 5rem 0rem;
+ }
