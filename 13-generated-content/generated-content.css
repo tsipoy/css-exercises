@@ -1,0 +1,102 @@
+/*
+ Pseudo elements
+*/
+
+
+/*
+  A special property for pseudo element is the content property for example p:first-line.
+*/
+
+
+/*
+  Functions can we use in that property's value:
+  attr()
+  calc()
+  cubic-bizier()
+  hsl()
+  hsla()
+  linear-gradient()
+  radical-gradient()
+  repeating-linear-gradient()
+  repeating-radical-gradient()
+  rgb()
+  rgba()
+  var()
+*/
+
+/*
+  The various pseudo-elements:
+  ::after
+  ::before
+  ::cue
+  ::cue-region
+  ::first-line
+  ::first-letter
+  ::section
+  ::slotted
+*/
+
+/*
+Why would we use pseudo-elements?
+We use psuedo element to specify a part of an element for example p::first-line so it will affect the first line of the p element, which means when we use p element without pseudo, all will be coloured blue as the following examples:
+*/
+/* Example */
+p::first-line {
+  color: blue;
+  text-transform: uppercase;
+}
+
+/* the example above is not the same as this */
+p {
+  color: blue;
+  text-transform: uppercase;
+}
+
+
+/*
+ Counters
+*/
+
+/*
+How do we *count* in CSS
+ When we wants to count in css we use the poprperty counter. Counter has many differant value such as count, counters().
+*/
+
+
+/*
+  How do we reset a counter?
+  We reset a counter with the counter-reset property value and it resets the counter in to given value.
+*/
+
+/* Example */
+.example {
+  counter-reset: none;
+}
+
+/*
+  What are counters useful for?
+   Counters let you adjust the appearance of content based on its location in a document. For example, you can use counters to automatically number the headings in a webpage. Counters are, in essence, variables maintained by CSS whose values may be incremented by CSS rules to track how many times they're used.(mdn)
+*/
+
+/*
+  Lists
+*/
+
+/*
+  Properties that are related to list:
+  list-style
+  list-style-image
+  list-style-position
+  list-style-type
+*/
+
+/*
+  There are two types of bulleted list unorder and order so thy are in the unorder list.
+*/
+
+/*
+  Any group of elements can be styled as a listto look like a list
+*/
+
+
+
