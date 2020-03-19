@@ -4,14 +4,15 @@
 
 
 /*
-  A special property for pseudo element is the content property for example p:first-line.
+  A special property for pseudo element is the content for example p::first-line.
 */
 
 
 /*
   Functions can we use in that property's value:
-  attr()
+  attr("attribute html name")
   calc()
+  counter()
   cubic-bizier()
   hsl()
   hsla()
@@ -22,6 +23,7 @@
   rgb()
   rgba()
   var()
+  url("image url")
 */
 
 /*
@@ -37,8 +39,8 @@
 */
 
 /*
-Why would we use pseudo-elements?
-We use psuedo element to specify a part of an element for example p::first-line so it will affect the first line of the p element, which means when we use p element without pseudo, all will be coloured blue as the following examples:
+Why would we use counters?
+  Set the html element to whatever we want.
 */
 /* Example */
 p::first-line {
@@ -84,18 +86,14 @@ How do we *count* in CSS
 
 /*
   Properties that are related to list:
-  list-style
-  list-style-image
-  list-style-position
-  list-style-type
+  list-style (shorthand)
+  list-style-image (url())
+  list-style-position (inside, outside)
+  list-style-type (circle, square, disc, emeji)
 */
 
 /*
-  There are two types of bulleted list unorder and order so thy are in the unorder list.
-*/
-
-/*
-  Any group of elements can be styled as a listto look like a list
+  Any group of elements can be set as a list but in a different style but it only works with display: list-item; .
 */
 
 

@@ -1,3 +1,5 @@
+@charset "utf=8";
+
 /*
   We need the following numbering structure:
 
@@ -18,3 +20,45 @@
     2. Major clause `<h3>` in a new `<section>`
     …
 */
+
+body {
+  counter-reset: major-clause;
+}
+h3::before {
+  counter-increment: major-clause;
+  content: counter(major-clause) ".";
+}
+
+h4 {
+  counter-increment: clause;
+}
+
+h4::before {
+  content: counter(major-clause) "."
+           counter(clause) ".";
+}
+
+ ol > li {
+  counter-increment: list;
+  list-style: none;
+}
+
+ol > li::before {
+  content: counter(major-clause) "."
+           counter(clause) "."
+           counter(list, lower-alpha) "." ;
+}
+
+li > ol > li {
+  counter-increment: nested-list;
+  list-style: none;
+}
+
+li > ol > li::before {
+  content: counter(major-clause) "."
+           counter(clause) "."
+           counter(list, lower-alpha) "."
+           counter(nested-list, lower-roman) ".";
+}
+
+
