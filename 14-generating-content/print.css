@@ -7,3 +7,22 @@
 @media print {
 
 }
+
+a::after {
+  content: " (" attr(href) " ) ";
+  word-break: break-word;
+}
+
+abbr::after {
+  content: " ( " attr(title) ")";
+}
+
+blockquote::after {
+  content: " ( " attr(cite) " ) ";
+}
+/*
+ pseudo element doesn't work in void element for example:
+*/
+img::after {
+  content: "(" attr(alt) ")";
+}
