@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/*
+Table style
+*/
+
+/*
+  table-layout
+  Its default value is auto.
+  table-layout sets the table row, column and cells in the table for example:
+*/
+table {
+  table-layout: fixed;
+  width: 300px;
+  border: 1px red solid;
+}
+
+td {
+  border: 1px green solid;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+/*
+  border-spacing
+  border-spacing sets the space between cells in a table element.
+  Its default value is sepated.
+*/
+.example {
+  border-spacing: separated;
+}
+
+/*
+  border-collapse
+  border-collapse sets whether cells inside a table is shared or separated.
+  Its default value is inherit.
+*/
+.example {
+  border-collapse: collapse;
+}
+
+
+/*
+  caption-side
+  caption-side put the table caption on the specified side.
+  Its default value is top.
+*/
+.example {
+  caption-side: top;
+}
+
+/*
+  empty-cells
+  empty-cells sets the cells that has not content in it and it available only when we use border-collapse: separated;
+*/
+.example {
+  empty-cells: show;
+}
+
+/*
+  Simulating HTML tables
+*/
+/*
+  - `table`
+  - `table-row-group`
+  - `table-header-group`
+  - `table-footer-group`
+  - `table-row`
+  - `table-cell`
+  - `table-column-group`
+  - `table-column`
+  - `table-caption`
+  These values correspond to table, th, tr, td and caption elements in html.
+*/
+
+
+/*
+  border-spacing requires border-collapse: separated before it can work effectively
+*/
+
+/*
+  display: table is used for the element to behave like a table in html so when it is simulating a table layout on non-table elements it will not behave like a table.
+*/
+
+/*
+  The difference between `table-layout: fixed` and `table-layout: auto
+  table-layout: fixed is fixed as it is fixed, it means that the border in each cell is fixed so if content is quite long, it will not feat inside the cell, but the table-layout: auto is opposite of that. Even if your countent is pretty long, it always feat in its cell so that means auto value is adaptable.
+*/
+
+/*
+ Yes, you can use border-spacing on non-table elements but for the other table properties, we   can't like table-layout or caption-side.
+*/
+
+
+/*
+  Before it can work effectively, it requires border-colapse: separated; and it was the same as border-spacing.
+*/
+
+
