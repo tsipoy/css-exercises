@@ -90,7 +90,7 @@ td {
 */
 
 /*
- Yes, you can use border-spacing on non-table elements but for the other table properties, we   can't like table-layout or caption-side.
+ Yes, you can use border-spacing and other table properties on non-table elements.
 */
 
 
