@@ -26,7 +26,7 @@ td {
 /*
   border-spacing
   border-spacing sets the space between cells in a table element.
-  Its default value is sepated.
+  Its default value is 2px.
 */
 .example {
   border-spacing: separated;
@@ -35,7 +35,7 @@ td {
 /*
   border-collapse
   border-collapse sets whether cells inside a table is shared or separated.
-  Its default value is inherit.
+  Its default value is separated.
 */
 .example {
   border-collapse: collapse;
