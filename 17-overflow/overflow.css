@@ -1,0 +1,41 @@
+@charset "utf-8";
+
+
+/*
+  overflow
+  Default value: visible
+  We use overflow property when our elements content is to big and because it will not fit in the box. The overflow makes the content will be fitted in the box depend on its. So that why it is useful.
+  To make it work effectivelly we need to set the height and white-space: non-wrap.
+*/
+
+
+/*
+  clip
+  Default value: auto
+  When we want to position an elment, we need to use clip property. It is useful because it makes the picture sharing into peaces as a rectangle.
+  Before it would work effectivelly, we need to set position property value.
+*/
+
+
+/*
+  clip-path
+  It is used to make a part that you want to show within its property value and it has a different shape. It is usefull because it shows the part you want to be shown.Its default value is none.
+*/
+
+
+/*
+  text-overflow: ellipsis
+  Default value: clip
+  It is used to show the hidden overflow of a content. It is useful because it helps the content to not overflow with hidding it.
+  Text-overflow only occurs when the container's overflow property has the value hidden , scroll or auto and white-space: nowrap;
+*/
+
+/*
+  Browser's default way to handle contents that are larger than its container is ellipsis.
+*/
+
+/*
+  What is an Ellipsis? How is that different from an Ellipse?
+  Ellipsis is the the dots which are used when there is still more information behind, then but it is hidden whereas ellipse is a shape like a circle, it doesn't much with ellipse.
+*/
+
