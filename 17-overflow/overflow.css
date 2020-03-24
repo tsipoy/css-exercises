@@ -30,12 +30,21 @@
   Text-overflow only occurs when the container's overflow property has the value hidden , scroll or auto and white-space: nowrap;
 */
 
+
 /*
   Browser's default way to handle contents that are larger than its container is ellipsis.
 */
+
 
 /*
   What is an Ellipsis? How is that different from an Ellipse?
   Ellipsis is the the dots which are used when there is still more information behind, then but it is hidden whereas ellipse is a shape like a circle, it doesn't much with ellipse.
 */
+
+/*
+  text-overflow is different from the over because text-overflow property only affects content that is overflowing a block container element in its inline progression direction (not text overflowing at the bottom of a box, for example).(mdn)
+*/
+
+
+
 

@@ -1,1 +1,41 @@
+@charset "utf-8";
+
+.overflow div div {
+  width: 1rem;
+  height: 1rem;
+  overflow: scroll;
+}
+
+.overflow
+.example.large {
+  width: 15rem;
+  height: 15rem;
+}
+
+#clipping_circle div {
+  clip-path: circle(10%);
+  overflow: auto;
+}
+
+#clipping_circle
+.example {
+  width: 767px;
+  height: 293px;
+}
+
+#clipping_poly > div {
+  clip-path: polygon(86% 29%, 86% 35%, 86% 65%, 59% 62%, 56% 39%);
+}
+
+#overclip div {
+  clip-path: circle(25%);
+}
+
+.ellipsis div {
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+
 
