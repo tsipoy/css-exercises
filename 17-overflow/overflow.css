@@ -4,8 +4,8 @@
 /*
   overflow
   Default value: visible
-  We use overflow property when our elements content is to big and because it will not fit in the box. The overflow makes the content will be fitted in the box depend on its. So that why it is useful.
-  To make it work effectivelly we need to set the height and white-space: non-wrap.
+  We use overflow property when our elements content is to big and because it will not fit in the box. The overflow is usefull when we haven't enough space so you can scroll the content. That why it is useful.
+  To make it work effectivelly we need width.
 */
 
 
