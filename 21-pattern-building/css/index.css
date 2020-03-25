@@ -1,1 +1,60 @@
 @import "setup.css";
+
+/* Icons button */
+
+.icon_left::before {
+  content: "";
+  background-image: url('../icon-facebook.png');
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-size: contain;
+  vertical-align: middle;
+}
+
+.icon_right::after {
+  content: "";
+  background-image: url('../icon-facebook.png');
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background-size: contain;
+  vertical-align: middle;
+}
+.icon {
+  background-color: skyblue;
+  padding: 0.5rem 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+
+/* Checkbox-driven dropdown */
+
+
+ ul {
+  display: none;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.dropdown [type="checkbox"]:checked ~ .dropdown_contents > ul {
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
