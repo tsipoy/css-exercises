@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+/*
+  Positioning
+*/
+
+/*
+  relative
+  absolute
+  fixed
+  sticky
+*/
+
+/*
+  The default value for position is static
+*/
+
+/*
+  When using any non-default position value, we need to supply height and width, float, top, left, bottom or right.
+*/
+
+/*
+  The inferred display value of an element that has been positioned is absolute.
+*/
+
+/*
+  One of the non-default values for position still maintains a box in the flow of the document. It is fixed.
+*/
+
+/*
+  The special or significant about fixed and sticky positioning is that they behave both like a relative position.
+*/
+
+/*
+  We use the positioning attributes top, left, bottom. and right to set the location.
+*/
+
+/*
+  Absolute position layout is used to make the position of the element relative to only its parent(non-static position element). (TheStartup)
+*/
+
+/*
+  Sometimes if you put two absolutely positioned elements in the same physical space, they'll stack, i.e. only one will be visible on top. What are the rules here? Why is a certain element on top? How can we adjust that ourselves:
+  Absolute with non-static parent so we need absolute with parent position non-static
+*/
+
+/*
+Stacking context refers to how elements on a webpage appear to sit on top of other elements, just as you can arrange index cards on your desk to lie side-by-side or overlap each other.(mdn)
+*/
+
