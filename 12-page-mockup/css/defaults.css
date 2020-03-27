@@ -1,9 +1,10 @@
 body {
   border: 1px solid;
   width: 800px;
-  height: 1000px;
+  height: 1072px;
   text-align: center;
   margin: auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
 }
 
