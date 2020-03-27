@@ -1,1 +1,130 @@
 @import "setup.css";
+
+/* Corners */
+
+section:nth-of-type(1) > div .circle {
+  bottom: -156px;
+  right: -150px;
+  width: 25%;
+  position: relative;
+}
+
+section:nth-of-type(1) > div .rect {
+  top: 0px;
+  right: 54px;
+  width: 25%;
+  position: relative;
+}
+
+section:nth-of-type(1) > div .pipe {
+  right: 109px;
+  bottom: -157px;
+  width: 25%;
+  position: relative;
+}
+
+section:nth-of-type(1) > div .bar {
+  top: -50px;
+  left: 150px;
+  width: 25%;
+  position: relative;
+  overflow: auto;
+}
+
+section:nth-of-type(1) > div {
+  height: 206px;
+}
+
+/* Outside */
+
+section:nth-of-type(2) > div .circle:nth-of-type(1) {
+  position: relative;
+  top: -103px;
+  right: 100px;
+  width: auto;
+}
+
+section:nth-of-type(2) > div .circle:nth-of-type(2) {
+  position: relative;
+  top: -305px;
+  left: 95px;
+  width: auto;
+}
+section:nth-of-type(2) > div .circle:nth-of-type(3) {
+  position: relative;
+  bottom: 311px;
+  right: 100px;
+  width: auto;
+}
+section:nth-of-type(2) > div .circle:nth-of-type(4) {
+  position: relative;
+  bottom: 514px;
+  left: 100px;
+  width: auto;
+}
+
+section:nth-of-type(2) > div {
+  height: 206px;
+  overflow: hidden;
+}
+
+/* Centered */
+
+section:nth-of-type(3) > div .rect {
+  position: relative;
+  width: 50%;
+  top: -153px;
+  left: 47px;
+}
+section:nth-of-type(3) > div .pipe {
+  position: relative;
+  width: 50%;
+  top: -257px;
+  left: 48px;
+}
+section:nth-of-type(3) > div .bar {
+  position: relative;
+  width: 50%;
+  top: -361px;
+  left: 47px;
+}
+
+section:nth-of-type(3) div {
+  height: 200px;
+}
+
+/* Stacking */
+
+section:nth-of-type(4) > div .circle {
+  position: relative;
+  width: 249px;
+  height: 200px;
+  top: -102;
+  left: -25px;
+  z-index: 11;
+}
+
+section:nth-of-type(4) > div .rect {
+  position: relative;
+  bottom: 204px;
+  right: 0px;
+  width: auto;
+}
+
+section:nth-of-type(4) > div .bar {
+  position: relative;
+  width: auto;
+  top: -612px;
+  z-index: 12;
+}
+
+section:nth-of-type(4) > div .pipe {
+  position: relative;
+  top: -408px;
+  width: auto;
+  z-index: 13;
+}
+
+section:nth-of-type(4) > div {
+  height: 202px;
+}
