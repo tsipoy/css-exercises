@@ -1,0 +1,30 @@
+@charset "utf-8";
+/* Corners */
+
+section:nth-of-type(1) > div .circle {
+  bottom: 0px;
+  right: 0px;
+  width: 25%;
+  position: absolute;
+}
+
+section:nth-of-type(1) > div .rect {
+  width: 25%;
+  position: absolute;
+}
+
+section:nth-of-type(1) > div .pipe {
+  bottom: 0px;
+  width: 25%;
+  position: absolute;
+}
+section:nth-of-type(1) > div .bar {
+  left: 150px;
+  width: 25%;
+  position: absolute;
+}
+
+section:nth-of-type(1) > div {
+  height: 206px;
+  position: relative;
+}

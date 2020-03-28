@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* Stacking */
+
+section:nth-of-type(4) > div .circle {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  top: 0px;
+  left: -25%;
+  z-index: 11;
+}
+
+section:nth-of-type(4) > div .rect {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: auto;
+}
+
+section:nth-of-type(4) > div .bar {
+  position: absolute;
+  width: auto;
+  top: 0px;
+  z-index: 12;
+}
+
+section:nth-of-type(4) > div .pipe {
+  position: absolute;
+  top: 0px;
+  width: auto;
+  z-index: 13;
+}
+
+section:nth-of-type(4) > div {
+  height: 200px;
+  position: relative;
+}
