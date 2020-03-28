@@ -1,0 +1,13 @@
+/* Checkbox-driven dropdown */
+
+ul {
+  display: none;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+.dropdown [type="checkbox"]:checked ~ .dropdown_contents > ul {
+  display: block;
+}

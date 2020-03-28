@@ -1,0 +1,27 @@
+nav.breadcrumb {
+  background-color: cadetblue;
+  width: 35rem;
+  height: 3rem;
+  padding-block-start: 1rem;
+  padding-block-end: 1rem;
+}
+nav.breadcrumb ol li {
+  display: inline;
+}
+
+.breadcrumb li+li::before {
+  content: " > ";
+}
+
+.breadcrumb li:first-child::before {
+  content: "";
+}
+
+.breadcrumb ol > li {
+  text-decoration: none;
+}
+
+.breadcrumb ol > li > a {
+  text-decoration: none;
+  color: aliceblue;
+}
