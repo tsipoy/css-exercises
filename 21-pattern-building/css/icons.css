@@ -3,27 +3,47 @@
 .icon_left::before {
   content: "";
   background-image: url('../icon-facebook.png');
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background-size: contain;
-  vertical-align: middle;
+  font-size: 1rem;
+  top: 50%;
+  left: 0.75rem;
+  margin-top: -0.75rem;
+  position: absolute;
 }
 
 .icon_right::after {
   content: "";
   background-image: url('../icon-facebook.png');
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
+  display: block;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   background-size: contain;
-  vertical-align: middle;
+  font-size: 1rem;
+  top: 50%;
+  right: 0.75rem;
+  margin-top: -0.75rem;
+  position: absolute;
 }
+
 .icon {
   background-color: skyblue;
-  padding: 1rem 1rem;
+  padding: 1rem;
   text-decoration: none;
   color: white;
+  text-transform: uppercase;
+  position: relative;
+  display: inline-block;
+  border-radius: 3px;
+}
+.icon_left {
+  padding-left: 3rem;
+}
+
+.icon_right {
+  padding-right: 3rem;
 }

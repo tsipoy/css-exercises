@@ -1,13 +1,91 @@
-/* Checkbox-driven dropdown */
 
-ul {
+
+/* Shared state styles */
+.dropdown {
+  position: relative;
+
+}
+
+.dropdown [type="checkbox"] {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+.dropdown_trigger {
+  background-color: hotpink;
+  color: black;
+  font-size: 1rem;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 1rem;
+  padding-inline-end: 3rem;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  position: relative;
+}
+
+.dropdown_trigger::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  top: 50%;
+  margin-top: -0.3rem;
+  right: 1rem;
+}
+
+.dropdown_contents {
+  position: absolute;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+
+.dropdown_contents ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown_contents a {
+  display: block;
+  padding: 0.25rem 0.25rem;
+  color: hotpink;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.dropdown_contents a:hover {
+  background-color: hotpink;
+  color: #fff;
+}
+
+/* Create default states: closed / unchecked */
+
+.dropdown_trigger {
+
+}
+
+.dropdown_trigger::before {
+  transition: border .3s;
+  border-color: currentColor transparent transparent transparent;
+  border-style: solid;
+  border-width: 0.6rem 0.5rem 0 0.5rem;
+}
+
+.dropdown_contents {
   display: none;
 }
 
-li > a {
-  text-decoration: none;
+/* Create alternative state:open / cheked */
+
+[type="checkbox"]:checked ~ .dropdown_trigger::before {
+  border-color: transparent transparent currentColor transparent;
+  border-style: solid;
+  border-width: 0 0.5rem 0.6rem 0.5rem;
 }
 
-.dropdown [type="checkbox"]:checked ~ .dropdown_contents > ul {
+[type="checkbox"]:checked ~ .dropdown_contents {
   display: block;
 }
