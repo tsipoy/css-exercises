@@ -4,7 +4,7 @@
 
 section:nth-of-type(4) > div .circle {
   position: absolute;
-  z-index: 11;
+  z-index: 1;
 }
 
 section:nth-of-type(4) > div .rect {
@@ -13,12 +13,12 @@ section:nth-of-type(4) > div .rect {
 
 section:nth-of-type(4) > div .bar {
   position: absolute;
-  z-index: 12;
+  z-index: 2;
 }
 
 section:nth-of-type(4) > div .pipe {
   position: absolute;
-  z-index: 13;
+  z-index: 3;
 }
 
 section:nth-of-type(4) > div {

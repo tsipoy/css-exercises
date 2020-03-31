@@ -1,0 +1,41 @@
+/* Floats and block formatting contexts */
+
+/* Floats */
+
+/* 1.  Default value
+  float: none;
+  clear: none;
+*/
+
+/*
+ 2. The possible values for clear are left, right, none and both.
+*/
+
+/*
+  3. The rule associated with a floated item in terms of source order, the content must be before the another float.
+*/
+
+/*
+  4. You can float other elements besides images within css clear property but sometimes you have to change the display.
+*/
+
+/*
+  5. There is a way to create a two-column layout with floats by setting css column-width property.
+*/
+
+
+
+/* BFC (Block formatting context) */
+
+/*
+  1. BFC is all about the area of a block level box generated in a layout. Set of rules for how the content contains its content.
+*/
+
+/*
+  2. We can 'clear' a float by creating a block formatting context on the parent, this is achieved by putting a certain set of properties on the container. What are those properties?:
+  overflow: hidden or auto..., position: absolute, and display.
+*/
+
+
+
+
