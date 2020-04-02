@@ -1,0 +1,32 @@
+/*  Flexbox */
+
+/*
+  1. The order of property values in the shorthand flex property is flex-grow:2, flex-shrink:1, and flex-basis:auto.
+*/
+
+/*
+  2. Before we can use align-content, we need flex-direction, flex and inline flex.
+*/
+
+/*
+  3. How is `align-content` different to `align-items`
+  Align items controles the alingnement of items for example center, start or end but the align-content controles the alignement between or around the content for example center, space-between, space-around.
+*/
+
+/*
+  4. align-items property overrides the flex item's align-self.
+*/
+
+/*
+  5. The other commonly-used box model property similar to flex-basis is min-width.
+*/
+
+/*
+  6. There are two ways to change the ordering of flex items within a flex container. One is done on each flex item by using the `order` property. The other can change the whole order of the flex items at the container level. It is column-reverse.
+*/
+
+/*
+  7. We can use align-content: space-between;
+  Using width, flex-items
+*/
+
