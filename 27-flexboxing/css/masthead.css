@@ -11,7 +11,8 @@ main > header {
   color: #fff;
   padding: 4rem 0;
   box-sizing: border-box;
-  min-height: 50vh;
+  min-height: 30rem;
+  margin-block-start: -4rem;
 }
 
 main > header > h2 {
@@ -21,4 +22,36 @@ main > header > h2 {
 
 main > header > p {
   margin: 0;
+}
+
+main {
+  margin-top: -3rem;
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 2;
+}
+
+main header {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+main header h2 {
+  display: flex;
+  justify-content: center;
+}
+
+main header h2 ~ p {
+  display: flex;
+  justify-content: center;
+}
+
+main > header ~ article {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-left: 3rem;
 }
