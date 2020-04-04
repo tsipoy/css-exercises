@@ -2,7 +2,6 @@ body > header {
   color: #fff;
   position: relative;
   justify-content: space-between;
-  z-index: 3;
   flex-wrap: wrap;
 }
 
@@ -20,6 +19,8 @@ body header nav ul  {
   justify-content: flex-end;
   flex-direction: row;
   display: flex;
+  flex-wrap: wrap;
+
 }
 
 body header nav ul li {
@@ -27,8 +28,12 @@ body header nav ul li {
   margin-top: -1.5rem;
 }
 
+body header nav ul {
+  margin-right: 3rem;
+}
 
 body header nav ul {
+  display: flex;
   flex-wrap: wrap;
 }
 
