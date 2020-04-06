@@ -1,0 +1,97 @@
+/*
+  By default, a grid have one column.
+*/
+
+/*
+  The differences between Flexbox and Grid:
+  _ flexbox designed for one dimensional layout whether it is colunm or row but grid designed   for two dimensional layout so, both column and row can work together.
+  _ flexbox applied on the content but grid is on the grid.
+  _ flexbox works in small scall layout but grid works for a vaste scall layout.
+*/
+
+/*
+  Why would you use flexbox rather than grid?
+  _ flexbox can be available in any browser.
+  _ I can work properly in flexbox because it is just one dimensional for example space.
+*/
+
+/*
+  Why would you use grid rather than flexbox?
+  _ With grid, I can apply both row and column layout.
+*/
+
+/*
+  The more concise way to write out the following: `grid-template-columns: 10rem 10rem 10rem 10rem;`is grid-template-columns: repeat(4, 10rem);
+*/
+
+/*
+  How can we specify a minimum height for a grid row, but still allow the row to increase in height if its content is too tall?
+  => grid-template-row: minmax(10px, 60px)
+*/
+
+#grid {
+  display: grid;
+  grid-template-columns: 20rem 20rem;
+}
+
+#areawhite {
+  background-color: whitesmoke;
+  grid-row: 1 / 3;
+  height: 200px;
+  margin-left: 12rem;
+
+}
+
+#areared {
+  background-color: red;
+  height: 100px;
+}
+
+#areagreen {
+  background-color: green;
+  height: 100px;
+}
+
+
+
+.grid {
+  display: grid;
+  background-color: teal;
+  border-radius: 3px;
+  color: black;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  column-gap: 2rem;
+  grid-auto-rows: minmax(100px, auto);
+  grid-column: 1;
+  margin-top: 10rem;
+  text-align: center;
+}
+
+.A {
+  background-color: brown;
+}
+
+.B {
+  background-color: greenyellow;
+}
+
+.C {
+  background-color: darkred;
+  grid-column: 1;
+}
+
+.D {
+  background-color: deeppink;
+}
+
+.E {
+  background-color: gold;
+}
+
+.F {
+  background-color: greenyellow;
+}
+
+
+

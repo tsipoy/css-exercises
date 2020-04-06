@@ -12,6 +12,7 @@ main > header {
   padding: 4rem 0;
   box-sizing: border-box;
   min-height: 30rem;
+  margin-block-start: -5.5rem;
 }
 
 main > header > h2 {
