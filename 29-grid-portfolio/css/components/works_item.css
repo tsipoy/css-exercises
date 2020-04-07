@@ -17,7 +17,7 @@
 }
 
 .works_item_image_container {
-
+  display: grid;
 }
 
 .works_item_navigation ul {
