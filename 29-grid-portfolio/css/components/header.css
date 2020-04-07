@@ -1,5 +1,8 @@
 body > header {
-
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  row-gap: 30px;
+  column-gap: 15px;
 }
 
 body > header h1 {
@@ -33,6 +36,16 @@ body > header ul {
   padding: 0;
 }
 
+body > header ul {
+  display: grid;
+  grid-template-columns: repeat(5, 145px);
+  row-gap: 30px;
+  column-gap: 15px;
+}
+
 body > header li {
   border-block-end: 1px solid #4d4d4d;
+  margin-block-start: 45px;
 }
+
+

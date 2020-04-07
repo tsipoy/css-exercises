@@ -3,4 +3,5 @@
   grid-template-columns: repeat(6, 1fr);
   row-gap: 30px;
   column-gap: 14px;
+  background-color: red;
 }
