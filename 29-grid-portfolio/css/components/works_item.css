@@ -1,5 +1,9 @@
 .works_item {
-
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  column-gap: 15px;
+  row-gap: 30px;
+  grid-area: 4 / 4 / 2 / 6;
 }
 
 .works_item_header {
@@ -7,7 +11,9 @@
 }
 
 .works_item_content {
-
+  display: grid;
+  column-gap: 15px;
+  grid-template-columns: repeat(1, 789px);
 }
 
 .works_item_image_container {
@@ -18,6 +24,8 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 45px);
 }
 
 .works_item_navigation a {
@@ -31,3 +39,5 @@
 .works_item_navigation a:hover {
   color: #fff18f;
 }
+
+
