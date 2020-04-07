@@ -34,13 +34,13 @@ img {
   border: 0;
 }
 
-<<<<<<< HEAD
 main > header ~ ul {
   display: grid;
   grid-template-columns: repeat(6, 145px);
   row-gap: 30px;
   column-gap: 15px;
-=======
+}
+
 h1,
 h2,
 h3 {
@@ -49,5 +49,4 @@ h3 {
 
 abbr {
   text-decoration: none;
->>>>>>> e9ceb264b274d966d09a96124bd276030b4a437a
 }

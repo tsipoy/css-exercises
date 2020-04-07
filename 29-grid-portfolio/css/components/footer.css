@@ -5,16 +5,9 @@ body > footer {
   padding-block-start: 0.75rem;
 }
 
-<<<<<<< HEAD
-body > footer {
-  display: grid;
-  grid-template-columns: repeat(6, 145px);
-  row-gap: 30px;
-  column-gap: 672px;
-=======
+
 body > footer p {
   margin: 0;
->>>>>>> e9ceb264b274d966d09a96124bd276030b4a437a
 }
 
 body > footer a {
@@ -27,7 +20,10 @@ body > footer a:hover {
 }
 
 body > footer p:last-child {
-
+  display: grid;
+  grid-template-columns: repeat(6, 145px);
+  row-gap: 30px;
+  column-gap: 672px;
 }
 
 body > footer p:last-child a {
