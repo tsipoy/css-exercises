@@ -3,11 +3,16 @@
   grid-template-columns: repeat(6, 145px);
   column-gap: 15px;
   row-gap: 30px;
-  grid-area: 4 / 4 / 2 / 6;
+  grid-column: 2 / 7;
+  margin-block-start: 0.75rem;
 }
 
 .works_item_header {
   color: #ccc;
+}
+
+.works_item_header p {
+  font-size: 0.875rem;
 }
 
 .works_item_content {
@@ -26,6 +31,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(4, 45px);
+  margin-inline-start: -0.75rem;
 }
 
 .works_item_navigation a {
