@@ -3,3 +3,7 @@
   margin-bottom: 20rem;
   grid-template-columns: 1fr 2fr 3fr;
 }
+
+.about > .about_description > p {
+  margin: 0;
+}
