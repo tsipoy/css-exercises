@@ -2,17 +2,17 @@
 
 #dry .grid {
   display: inline-grid;
-  grid-template-columns: repeat(10, 20px);
+  grid-template-columns: repeat(10, var(--width));
 }
 
 #dry a {
   display: block;
   position: relative;
-  width: 20px;
-  height: 20px;
+  width: var(--width);
+  height: var(--width);
   background-color: rgb(63, 63, 63);
   transition: background-color 1s;
-  counter-increment: item;
+  counter-increment: var(--counter-name);
 }
 
 #dry a:hover {
@@ -20,14 +20,14 @@
 }
 
 #dry a::before {
-  content: counter(item);
+  content: counter(var(--counter-name));
   position: absolute;
   top: 0;
   left: 0;
-  width: 20px;
+  width: var(--width);
   text-align: center;
-  font-size: 10px;
-  line-height: 20px;
+  font-size: calc(var(--width) / 2);
+  line-height: var(--width);
   font-weight: 700;
   color: rgb(63, 63, 63);
   transition: color 1s;
@@ -36,5 +36,12 @@
 #dry a:hover::before {
   color: rgb(255, 255, 255);
 }
+
+:root {
+  --width: 20px;
+  --counter-name: item;
+}
+
+
 
 
