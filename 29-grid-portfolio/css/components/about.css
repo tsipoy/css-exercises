@@ -4,6 +4,7 @@
   margin-block-start: 30px;
   grid-template-columns: repeat(6, 145px);
   column-gap: 15px;
+  grid-template: ;
 }
 
 .about > .about_description > p {
