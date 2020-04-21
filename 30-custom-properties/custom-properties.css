@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+/* Custom Properties */
+
+/*
+  1. We have to use "--" when defining a Custom Property's name in the root, we have to use var() function to make our custun properties variable in the selector and it must finish with ";".
+*/
+
+/*
+  2. We can't use space in Custum Properties but instead we use a dash to separete the name.
+*/
+
+/*
+  3. Possible values we can assign to a new Custom Property are px, %, rem, and number.
+*/
+
+/*
+  4. It is useful because custom properties are scoped on the elements they have declared on and it isn't useful if we don't use them in the cascade.
+*/
+
+/*
+  5. After we've defined a new Custom Property for example --example-one: green; , we use the var() fuction and we put the new custon property inside the bracket but we have to set the property like background-color: var(--example-one);
+*/
+
+/*
+  6. There are several ways to override or change a Custom Property:
+     media quiry, :root, var()
+*/
+
+/*
+  7. Custom Properties are useful because:  - we don't need to write long codes
+                                            - it avoids repeated values
+                                            - it used to stores specified values
+                                            - we can adjust a single value in the shorthand property very easily(css{In Real Life})
+                                            -
+*/
+
+/*
+  8. What is the only aspect (or part) of CSS syntax that we can use Custom Properties for
+     :root and elements with var() function
+*/
+
