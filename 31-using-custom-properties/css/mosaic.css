@@ -30,89 +30,39 @@
   );
 }
 
-.row a:nth-of-type(1) {
+.row a:nth-of-type(1)  { --alpha-multiplier: 1;}
   /* --alpha: calc(var(--base-opacity) * 1); */
-  --alpha-multiplier: 1;
-}
-
-.row a:nth-of-type(2) {
+.row a:nth-of-type(2)  { --alpha-multiplier: 2;}
   /* --alpha: calc(var(--base-opacity) * 2);*/
-  --alpha-multiplier: 2;
-  }
-
-.row a:nth-of-type(3) {
+.row a:nth-of-type(3)  { --alpha-multiplier: 3;}
   /* --alpha: calc(var(--base-opacity) * 3);*/
-  --alpha-multiplier: 3;
-}
-
-.row a:nth-of-type(4) {
+.row a:nth-of-type(4)  { --alpha-multiplier: 4;}
   /* --alpha: calc(var(--base-opacity) * 4); */
-  --alpha-multiplier: 4;
-}
-
-.row a:nth-of-type(5) {
+.row a:nth-of-type(5)  { --alpha-multiplier: 5;}
   /* --alpha: calc(var(--base-opacity) * 5); */
-  --alpha-multiplier: 5;
-}
-
-.row a:nth-of-type(6) {
+.row a:nth-of-type(6)  { --alpha-multiplier: 6;}
   /* --alpha: calc(var(--base-opacity) * 6); */
-  --alpha-multiplier: 6;
-}
-
-.row a:nth-of-type(7) {
+.row a:nth-of-type(7)  { --alpha-multiplier: 7;}
   /* --alpha: calc(var(--base-opacity) * 7); */
-  --alpha-multiplier: 7;
-}
-.row a:nth-of-type(8) {
+.row a:nth-of-type(8)  { --alpha-multiplier: 8;}
   /* --alpha: calc(var(--base-opacity) * 8); */
-  --alpha-multiplier: 8;
-}
-
-.row a:nth-of-type(9) {
+.row a:nth-of-type(9)  { --alpha-multiplier: 9;}
   /* --alpha: calc(var(--base-opacity) * 9); */
-  --alpha-multiplier: 9;
-}
-
-.row a:nth-of-type(10) {
+.row a:nth-of-type(10) { --alpha-multiplier: 10;}
   /* --alpha: calc(var(--base-opacity) * 10); */
-  --alpha-multiplier: 10;
-}
 
 
 
-.row:nth-of-type(1) {
-  --hue-multiplier: 1;
-}
-
-.row:nth-of-type(2) {
-  --hue-multiplier: 2;
-  }
-
-.row:nth-of-type(3) {
-  --hue-multiplier: 3;
-}
-.row:nth-of-type(4) {
-  --hue-multiplier: 4;
-}
-.row:nth-of-type(5) {
-  --hue-multiplier: 5;
-}
-.row:nth-of-type(6) {
-  --hue-multiplier: 6;
-}
-.row:nth-of-type(7) {
-  --hue-multiplier: 7;
-}
-.row:nth-of-type(8) {
-  --hue-multiplier: 8;
-}
-.row:nth-of-type(9) {
-  --hue-multiplier: 9;
-}
-.row:nth-of-type(10) {
-  --hue-multiplier: 10;
-}
+.row:nth-of-type(1)   { --hue-multiplier: 1;}
+.row:nth-of-type(2)   { --hue-multiplier: 2;}
+.row:nth-of-type(3)   { --hue-multiplier: 3;}
+.row:nth-of-type(4)   { --hue-multiplier: 4;}
+.row:nth-of-type(5)   { --hue-multiplier: 5;}
+.row:nth-of-type(6)   { --hue-multiplier: 6;}
+.row:nth-of-type(7)   { --hue-multiplier: 7;}
+.row:nth-of-type(8)   { --hue-multiplier: 8;}
+.row:nth-of-type(9)   { --hue-multiplier: 9;}
+.row:nth-of-type(10)  { --hue-multiplier: 10;}
 
 
 
