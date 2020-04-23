@@ -3,7 +3,7 @@
 /* The calc function */
 
 /*
-  1. Calc function can support length, frequency, angle, time, percentage, number, or integer.
+  1. Calc function can support length, frequency, angle, time, percentage, number, or integer, fraction, string.
 */
 
 /*
@@ -12,7 +12,7 @@
 */
 
 /*
-  3. No, we can not use cal function to convert one type of unit to another type of unit.
+  3. Yes, we can use cal function to convert one type of unit to another type of unit.
 */
 
 /*
@@ -25,7 +25,7 @@
 */
 
 /*
-  6. If we want to convert a value into a negative value, we need to put the sign(-)  but it is without space.
+  6. If we want to convert a value into a negative value, we need to put negative number.
 */
 
 /*
@@ -33,5 +33,5 @@
 */
 
 p {
-  background-color: hsla(100deg, 20%, 50%, 1);
+  background-color: rgba(153, 144, 102, 50%);
 }
