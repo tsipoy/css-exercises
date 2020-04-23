@@ -3,19 +3,19 @@
 /* Custom Properties */
 
 /*
-  1. We have to use "--" when defining a Custom Property's name in the root, we have to use var() function to make our custun properties variable in the selector and it must finish with ";".
+  1. We have to use "--" when defining a Custom Property's name in the root, underscore we have to use var() function to make our custun properties variable in the selector and it must finish with ";".
 */
 
 /*
-  2. We can't use space in Custum Properties but instead we use a dash to separete the name.
+  2. We can't use space in Custum Properties but instead we use a dash to separete the name, we also can't use fullstop and period.
 */
 
 /*
-  3. Possible values we can assign to a new Custom Property are px, %, rem, and number.
+  3. Possible values we can assign to a new Custom Property are text with ("") px, %, rem, and number.
 */
 
 /*
-  4. It is useful because custom properties are scoped on the elements they have declared on and it isn't useful if we don't use them in the cascade.
+  4. It is useful because custom properties are scoped on the elements they have declared on and it isn't useful if we want to share a variable that have different values.
 */
 
 /*
@@ -24,19 +24,19 @@
 
 /*
   6. There are several ways to override or change a Custom Property:
-     media quiry, :root, var()
+     change it in the selector, @media query and :root
 */
 
 /*
   7. Custom Properties are useful because:  - we don't need to write long codes
-                                            - it avoids repeated values
+                                            - it reduces repeated values
                                             - it used to stores specified values
                                             - we can adjust a single value in the shorthand property very easily(css{In Real Life})
-                                            -
+                                            - 1 point of control
 */
 
 /*
   8. What is the only aspect (or part) of CSS syntax that we can use Custom Properties for
-     :root and elements with var() function
+     -> declaration block
 */
 

@@ -1,0 +1,37 @@
+@charset 'utf-8';
+
+/* The calc function */
+
+/*
+  1. Calc function can support length, frequency, angle, time, percentage, number, or integer.
+*/
+
+/*
+  2.  How can we control the mathematical order of operation (PEDMAS / BODMAS) in the function, so that something like `calc(2 + 3 * 4)` doesn't equal `20`, when it is instead meant to equal `14`?
+  -> We should calculate the calc like this, calc((2 + 5) * 4)
+*/
+
+/*
+  3. No, we can not use cal function to convert one type of unit to another type of unit.
+*/
+
+/*
+  4. You have to add the unitless number with a unit number. For example, calc(2 * 1rem), it equals 2rem.
+*/
+
+/*
+  5. Why do the *plus* and *minus* operators inside the function need spaces around them?
+  If we don't use spaces aound them, the number change into negative or positive.
+*/
+
+/*
+  6. If we want to convert a value into a negative value, we need to put the sign(-)  but it is without space.
+*/
+
+/*
+  7. It works with some browsers like firefox, safari but it doesn't work with some like chrome or opera.
+*/
+
+p {
+  background-color: hsla(100deg, 20%, 50%, 1);
+}
