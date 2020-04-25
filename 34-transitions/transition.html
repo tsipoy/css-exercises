@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Transitions</title>
+  <style>
+    body {
+      background-color: violet;
+      color: white;
+      border-radius: 1%;
+      font-size: larger;
+      font-family: Arial;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+
+
+    div {
+      border-style: solid;
+      border-width: 1px;
+      display: block;
+      width: 100px;
+      height: 100px;
+      background-color: green;
+      transition: width 3s, height 2s, background-color 4s, transform 1s;
+    }
+
+    div:hover {
+      background-color: yellow;
+      width: 200px;
+      height: 200px;
+      transform: rotate(180deg);
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h2>Transitions exercises</h2>
+    </header>
+    <nav>
+      <ol>
+        <li>The `transition` property is a 'shorthand property'. What other properties are included in this shorthand
+          property?<br>There are:
+          <code>trasition-properties,</code>
+          <code>transition-duration,</code>
+          <code>transiton-delay,</code>
+          <code>transition-timing-function.</code>
+        </li>
+        <li>
+          The difference between a timing function, delay, and duration.
+          timing function defines how intermediate values are computed,
+          delay defines how long to wait between the time of property is changed and the transition actually (mdn), and
+          duration defines the duration over which transitions should occur (mdn).
+        </li>
+        <li>
+          CSS properties animatable using transitions: width, height, background-color, color, font-size and background.
+        </li>
+        <li>Can we select more than one property to transition at a time?<br>Yes, we can. For example, when we set the
+          transition delay we can set the duration so we will know where it will be stopped and by setting timming
+          function we can make how quick or slow it is. </li>
+        <li>
+          We set or define the desired transition state, in css by using :hover.
+        </li>
+        <li>
+          Do we need transitions? What makes them useful?<br> We do need transition when we want to animate properties
+          or to make our properties be good looking instead of making it as simple.
+        </li>
+        <li>
+          At what point can transitions become a problem?<br>When we set our width as auto.
+        </li>
+        <li>Transitions don't work reliably with the `auto` keyword being one of the end states. Why is that?<br>It is
+          because the width is set automatically and if we define the transition-duration it create vibration until it
+          reaches the value that we set.
+        </li>
+        <li>
+          How can we stagger transitions? i.e. make a number of child elements all start at different times?<br>We can
+          use different transition-delay in different properties.
+        </li>
+      </ol>
+    </nav>
+  </main>
+  <footer>
+    <header>
+      <h3>Example of transitions</h3>
+    </header>
+    <div class="S">
+      square
+    </div>
+  </footer>
+</body>
+
+</html>
