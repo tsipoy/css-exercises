@@ -21,7 +21,9 @@
 */
 .scene:hover .wheel {
   left: 100%;
-  transition: all 5s ease-in-out;
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
   transform: rotate(360deg);
 }
 
@@ -37,7 +39,9 @@
   height: var(--wheel-diameter);
   width: var(--wheel-diameter);
   right: 100%;
-  transition: all 5s ease-in-out;
+  transition-property: all;
+  transition-duration: 5s;
+  transition-timing-function: ease-in-out;
 }
 
 .spoke {
