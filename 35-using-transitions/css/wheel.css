@@ -36,6 +36,8 @@
   box-sizing: border-box;
   height: var(--wheel-diameter);
   width: var(--wheel-diameter);
+  right: 100%;
+  transition: all 5s ease-in-out;
 }
 
 .spoke {
