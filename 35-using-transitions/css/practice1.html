@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    div {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+    }
+    div.transform a {
+      position: absolute;
+      background-color: darkcyan;
+      width: 5vw;
+      height: 5vw;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    div::after,
+    div::before {
+      content: '';
+      background-color: darkgray;
+      display: block;
+      position: absolute;
+    }
+
+    div::before {
+      left: 50%;
+      width: 1px;
+      top: 0;
+      bottom: 0;
+    }
+
+    div:after {
+      top: 50%;
+      height: 1px;
+      left: 0;
+      right: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="transform">
+    <a href=""></a>
+</body>
+</html>
