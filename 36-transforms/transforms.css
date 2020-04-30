@@ -11,13 +11,14 @@
 
 
 /* 2. Why do we have to use separate functions, in order, and as values, e.g. `transform: scale  (0.5) rotate(45deg);` when we could have had separate properties like: `transform-scale: 0.5;`, or `transform-rotate: 45deg`?
--->We have to use separate functions like this 'transform: scale  (0.5) rotate(45deg);' because transform functions are multiplied each other so, it will not work properly as we expected when we use the second example.
+-->We have to use separate functions like this 'transform: scale  (0.5) rotate(45deg);' because transform functions are in order which mean, it works left to right. So, it will not work properly as we expected when we use the second example, there must be specific selector.
 */
 
 
 /* 3. Often, we want to move the central pin or axis of the transform away from its default position. What property do we use to set that?
 -->We should set transform-origin.
 */
+
 
 /* 4. Why is it preferable to use `transform: translate()` rather than `position` and its associated properties?
 -->Because if we use position and its associated properties, we must have long code. But if it is `transform: translate()`, we just use one property.
@@ -32,12 +33,12 @@
 
 
 /* 6. What problems can you run in to when overriding a `transform` in a more specific selector?
--->If it is to specific then the other property will not work properly as we should expected or nothing works.
+-->If it is to specific then the other property will not work properly as we should expected or deleted.
 */
 
 
 /* 7.  If we want to go 3D, we need to use another property to set the view over the scene. What is that property?
--->We use "transform: translate or scale or matrix or prespective3D();".
+-->We use "transform: translate3D() and prespective3D();".
 */
 
 
