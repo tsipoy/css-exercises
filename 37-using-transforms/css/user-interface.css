@@ -62,5 +62,4 @@
 .user-interface :checked ~ nav {
   transform: scaleX(0);
   transform-origin: top right;
-
 }
