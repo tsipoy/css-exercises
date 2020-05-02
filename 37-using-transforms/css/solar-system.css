@@ -43,7 +43,7 @@
 #earth-system {
   width: var(--earth-system-size);
   height: var(--earth-system-size);
-  transform: translate(100px, -50px);
+  transform: translate(100px, -60px);
 }
 
 #earth {
@@ -75,7 +75,7 @@
 }
 
 .scene:hover #earth-system {
-  transform: translate(100px, -50px) rotate(1turn);
+  transform: translate(100px, -60px) rotate(1turn);
   transform-origin: -100px 50%;
 }
 
@@ -84,5 +84,6 @@
 }
 
 .scene:hover #luna {
-
+  transform: translate(55px, -5px) rotate(5turn);
+  transform-origin: -55px 50%;
 }
