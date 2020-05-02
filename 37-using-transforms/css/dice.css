@@ -48,7 +48,7 @@
   background-size: 20% 20%;
   backface-visibility: visible;
   /* Once you have a few faces positioned properly, try this border-radius setting: */
-  /* border-radius: 25%; */
+  border-radius: 25%;
   box-shadow: inset 0 0 calc(var(--face-side) / 5) rgba(255,255,255,0.2);
 }
 
