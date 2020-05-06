@@ -22,5 +22,20 @@
   background-position:
     50% -25px,
     50% 50%;
-  background-repeat: no-repeat;;
+  background-repeat: no-repeat;
+  animation-name: bounce;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-duration: alternate-reverse;
 }
+
+
+@keyframes bounce {
+  0%    { transform: translateY(0);
+          animation-timing-function: ease-in;
+  }
+  60%   { transform: translateY(400px);
+          animation-timing-function: ease-out;
+        }
+}
+
