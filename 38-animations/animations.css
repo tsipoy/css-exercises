@@ -1,4 +1,4 @@
-/* Keyfram Animation */
+/* Keyframe Animation */
 
 
 /* 1. Keyframe Animation setup needs some unique code, what does it start with?
@@ -8,28 +8,27 @@
 
 /* 2. What makes the keyframes code different to the rest of CSS?
   - Indicate the start and the end of the animations
-  - You don't need to hover your code any more
-  - It can animate transitions or transforms
-  - It is infinite
+  - It doesn't have brackets
+ 
  */
 
 
 /* 3. How do we use a keyframe animation we set up earlier as a property in a ruleset for an element?
-  We set the name of the selector and after we set the keyframe properties inside it so we can set transition or transform in @keyframes.
+  We set the name of the selector and after we set the animation name and animation duration inside it so we can set transition or transform in @keyframes.
 */
 
 
 /* 4. Keyframe animations have other keywords that aren't available in `transitions`, what are   these keywords?
-  - animation-name,
-  - anomation-iteration-count,
-  - animation-fill-mode,
-  - animation-play-state,
-  - animation-direction.
+  - infinite,
+  - alternate,
+  - alternate-reverse,
+  - reverse,
+  - playstate.
 */
 
 
 /* 5. How many properties can we animate at once?
-  We can at most animate 8 properties at once for example:
+  We can animate as much properties as we can at once.
 */
 
 
