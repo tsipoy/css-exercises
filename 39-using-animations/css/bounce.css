@@ -26,7 +26,6 @@
   animation-name: bounce;
   animation-duration: 3s;
   animation-iteration-count: infinite;
-  animation-duration: alternate-reverse;
 }
 
 
@@ -34,8 +33,9 @@
   0%    { transform: translateY(0);
           animation-timing-function: ease-in;
   }
-  60%   { transform: translateY(400px);
+  60%   { top: 85%;
+          transform: translateX(50%) rotateX(50deg) scale(1.1);
           animation-timing-function: ease-out;
         }
-}
+  }
 
