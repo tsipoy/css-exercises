@@ -81,6 +81,7 @@
   perspective: 1000px;
 }
 
+
 #scissors {
   position: absolute;
   top: 85px;
@@ -88,6 +89,15 @@
   height: 200px;
   width: 370px;
   z-index: calc(var(--middle-z-index) + 1);
+  animation-name: move;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+0%   { transform: translateX(100%);}
+100% { transform: translateX(600%);}
 }
 
 #scissors-pivot {
@@ -110,6 +120,17 @@
   left: 0;
   transform-origin: calc(var(--pivot-x) + 3px) 73%;
   transform: rotate(-15deg);
+  animation-name: cut;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes cut {
+  0%  { transform: translateX(0) translateY(0);}
+
+  100% { transform: translateX(100%) translateY(0);
+         transition-timing-function: ease-in;
+       }
 }
 
 #blade-top {
@@ -137,7 +158,18 @@
   left: 0;
   transform-origin: calc(var(--pivot-x) + 3px) 27%;
   transform: rotate(15deg);
+  animation-name: cut;
+  animation-duration: .5s;
+  animation-iteration-count: infinite;
 }
+
+@keyframes cut {
+  0%  { transform: translateX(0) translateY(0);
+        animation-timing-function: ease-in;
+      }
+  100% { transition-timing-function: ease-in;}
+  }
+
 
 #blade-bottom {
   top: 0;
@@ -166,7 +198,23 @@
   z-index: calc(var(--middle-z-index) - 1);
   transform-origin: 50% 100%;
   transform: translateZ(100px) rotateX(15deg);
+  animation-name: paper-cut;
+  animation-duration: 3s;
+  animation-delay: 10s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;
 }
+
+@keyframes paper-cut {
+0%   { transform: translate(50deg);}
+25%  { transform: translate(50deg);}
+50%  { transform: translate(50deg);}
+75%  { transform: translate(150px) rotate(45deg);}
+100% { transform: translate(100px) rotate(45deg);}
+}
+
+
+
 
 #paper-uncut {
   top: 199px;
