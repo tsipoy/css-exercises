@@ -1,0 +1,21 @@
+/* Shadows */
+
+/*
+1- `box-shadow` and `text-shadow` have very similar value syntax. Where do they differ?
+  -->box-shadow sts in a border whereas text-shadow sets in a text.
+*/
+
+/*
+2-  If I wanted to create a hard-edge shadow, one that looks like a solid border, what combination of values would I need to use?
+  -->We need to use the X and the Y, blur and, the colour together.
+*/
+
+/*
+3- Is it possible to create a shadow on a circular element? What about a polygon?
+  -->We can use box-shadow with border-radiusot but it is not possible with clip-path.
+*/
+
+/*
+4- Is it possible to create multiple shadows on the same element?
+  -->Yes, it is possible to create multiple shadows on the same element but you have to use comma.
+*/
