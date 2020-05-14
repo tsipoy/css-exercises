@@ -1,0 +1,52 @@
+/* Font face */
+
+/*
+  1. There are several types of font formats, e.g. `WOFF`, `TTF`, etc.? Name at least 2 other font file formats.
+  -->SVG, WOFF2, OTF and, EOT.
+*/
+
+/*
+  2. Which of these font file formats is a good candidate to use in all browsers?
+  -->WOFF and WOFF2
+*/
+
+/*
+  3. The font-face syntax is also different to other @-blocks. What are the differences between a `@font-face` block and `@keyframes` / `@media` queries / `@supports` blocks, etc.
+  -->@font-face is for all of the font-family: one curly braces, no name, combination of a font properties.
+*/
+
+
+/*
+  4. Some fonts come with licencing restrictions. What does this mean?
+  -->To explain whether you can use the font or not.
+*/
+
+
+/*
+ 5. We need 4 font-face blocks and for roboto and 4 font-face blocks for proxima nova.
+*/
+
+
+/*
+  6. The user will use roughly 160 kilobytes when he download the file.
+*/
+
+/*
+  7. We should use two url()format, and after that url()syntax but the WOFF2 sets first the syntax and, we would have 16 files.
+*/
+
+/*
+  8. Most of our users would probably have the exact font we want to serve already installed on their devices. How can we make sure the user's browser doesn't download the fonts they might already have?
+  -->By using local() function or system name.
+*/
+
+/*
+  9. We should stack some fonts which are similar to the one which is chosen.
+*/
+
+/*
+  10. We can render fallback fonts, blank until downloaded and, font-display.
+*/
+
+
+
