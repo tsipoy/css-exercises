@@ -21,3 +21,49 @@ html {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+
+.navigation__link a {
+  text-decoration: none;
+}
+
+.navigation a {
+  color: var(--inverse-colour);
+  line-height: 3;
+  text-decoration: none;
+}
+
+.navigation__link pricing--active {
+  background-color: var(--primary-colour);
+}
+
+
+.navigation__link {
+  background-color: var(--secondary-colour);
+  max-width: var(--container-max-width);
+  border-top-left-radius: var( --nav-tab-radius-amount);
+  border-top-right-radius: var( --nav-tab-radius-amount);
+  padding-block-start: var(--nav-tab-vertical-padding);
+  padding-inline-start: var( --nav-tab-horizontal-padding);
+  padding-inline-end: var( --nav-active-tab-horizontal-padding);
+  margin-inline-end: var(--nav-active-tab-vertical-padding);
+  flex-grow: 0;
+}
+
+.article {
+  background-color: var(--primary-colour);
+  max-width: var(--container-max-width);
+  color: var(--inverse-colour);
+  padding-block-start: var(--article-padding);
+  padding-block-end: var(--article-padding);
+  padding-inline-end: var(--article-padding);
+  padding-inline-start: var(--article-padding);
+  margin-block-start: -16px;
+}
+
