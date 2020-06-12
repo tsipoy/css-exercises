@@ -39,8 +39,7 @@
 
 /* 1 */
 [data-example="1"] {
-  display: flex;
-  flex-direction: column;
+
 }
 
 [data-example="1"] > article {
@@ -96,6 +95,24 @@
   margin-inline-end: 4rem;
 }
 /* 3 */
-[data-example="3"] > article {
+[data-example="3"] article {
+  display: flex;
+  flex-direction: column;
+}
+[data-example="3"] {
+
+}
+[data-example="3"] article {
   border: 1rem black solid;
 }
+
+[data-example="3"] header {
+  margin-block-end: 1rem;
+}
+
+[data-example="3"] .content {
+  margin-block-end: 1rem;
+}
+
+
+

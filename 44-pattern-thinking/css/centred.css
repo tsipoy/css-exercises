@@ -13,8 +13,12 @@
 }
 
 /* 4 */
-[data-example="4"] {
+[data-example="4"] .centred{
+  display: flex;
+}
 
+[data-example="4"] .centred > p {
+  margin-inline-start: 4rem;
 }
 
 /* 5 */
