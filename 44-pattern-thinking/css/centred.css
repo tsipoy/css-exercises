@@ -15,15 +15,21 @@
 /* 4 */
 [data-example="4"] .centred{
   display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block-start: 5.5rem;
 }
 
-[data-example="4"] .centred > p {
-  margin-inline-start: 4rem;
-}
 
 /* 5 */
 [data-example="5"] {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
 
+[data-example="5"] .centred {
+  grid-column: 1;
+  grid-row: 2;
 }
 
 /* 6 */
