@@ -39,7 +39,8 @@
 
 /* 1 */
 [data-example="1"] {
-
+display: inline-block;
+flex-flow: column;
 }
 
 [data-example="1"] > article {
@@ -51,26 +52,10 @@
   margin-block-start: 1rem;
 }
 
-[data-example="1"] h2 {
-  margin-block-start: auto;
-  margin-inline-start: 4rem;
-  margin-inline-end: 4rem;
-  margin-block-end: auto;
+[data-example="1"] header {
+  margin-block-end: 1rem;
 }
 
-[data-example="1"] .content p {
-  margin-block-start: auto;
-  margin-inline-start: 4rem;
-  margin-inline-end: 4rem;
-  margin-block-end: auto;
-}
-
-[data-example="1"] footer p {
-  margin-block-start: auto;
-  margin-inline-start: 4rem;
-  margin-inline-end: 4rem;
-  margin-block-end: auto;
-}
 
 /* 2 */
 [data-example="2"] > article {
@@ -80,28 +65,13 @@
   border-width: 1rem;
 }
 
-[data-example="2"] h2 {
-  margin-inline-start: 4rem;
-  margin-inline-end: 4rem;
-}
-
-[data-example="2"] .content p {
-  margin-inline-start: 4rem;
-  margin-inline-end: 4rem;
-}
-
-[data-example="2"] footer p {
-  margin-inline-start: 4rem;
-  margin-inline-end: 4rem;
-}
 /* 3 */
 [data-example="3"] article {
   display: flex;
   flex-direction: column;
 }
-[data-example="3"] {
 
-}
+
 [data-example="3"] article {
   border: 1rem black solid;
 }
