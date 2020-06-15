@@ -32,6 +32,11 @@
   grid-row: 2;
 }
 
+[data-example="5"] .centred p {
+  text-align: center;
+}
+
+
 /* 6 */
 [data-example="6"] {
 
