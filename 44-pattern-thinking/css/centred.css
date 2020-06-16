@@ -17,7 +17,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-block-start: 5.5rem;
+  position: relative;
+  top: 33%;
 }
 
 
@@ -28,16 +29,16 @@
 }
 
 [data-example="5"] .centred {
-  grid-column: 1;
   grid-row: 2;
 }
 
 [data-example="5"] .centred p {
-  text-align: center;
+  display: inline-grid;
 }
 
 
 /* 6 */
-[data-example="6"] {
-
+[data-example="6"] .centred{
+  position: relative;
+  top: 33%;
 }
