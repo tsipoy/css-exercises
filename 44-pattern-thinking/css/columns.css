@@ -20,13 +20,35 @@
 }
 
 /* 7 */
-[data-example="7"] {
+[data-example="7"] .columns {
+  display: flex;
+  flex-direction: row;
+}
 
+[data-example="7"] article, aside {
+  flex-grow: 1;
+}
+
+[data-example="7"] article {
+  margin-inline-end: 1rem;
+}
+
+[data-example="7"] article p {
+  margin-block-end: 5rem;
 }
 
 /* 8 */
-[data-example="8"] {
+[data-example="8"] .columns {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
 
+[data-example="8"] article {
+  margin-inline-end: 1rem;
+}
+
+[data-example="8"] article p {
+  margin-block-end: 5rem;
 }
 
 /* 9 */
